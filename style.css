@@ -1,0 +1,94 @@
+/*
+
+
+.app{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+
+}
+
+
+
+
+
+*/
+
+h1{
+
+    text-align: center;
+}
+
+.zone1{
+   /**/ height: 150px;
+
+    background-color: rgba(73, 73, 73, 0.686);
+}
+
+.zone2{
+    display: grid;
+
+    row-gap: 10px;
+    grid-template-columns: 5fr 1fr;
+
+    height: 500px;
+
+    background-color: rgb(91, 93, 92);
+
+
+
+}
+
+.zone3{
+    height: 150px;
+
+
+    background-color: rgb(123, 11, 175);
+}
+
+.lesbtn{
+
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    margin: 15px 15px 18px 15px;
+
+
+
+}
+
+textarea{
+
+font-size:x-large;
+
+margin: 15px 15px 18px 15px;
+padding: 15px 15px 18px 15px;
+
+border-radius: 10px;
+background-color: rgb(26, 8, 6);
+color: antiquewhite;
+
+}
+
+.result{
+
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+column-gap: 10px;
+
+}
+
+li{
+color: aqua;
+height: 25px;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.855);
+    text-align: center;
+    margin: 0px  0px  0px  0px ;
+        padding: 5px  0px  0px  0px ;
+}
