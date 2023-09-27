@@ -17,78 +17,101 @@
 
 */
 
-h1{
-
-    text-align: center;
+* {
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-.zone1{
-   /**/ height: 150px;
-
-    background-color: rgba(73, 73, 73, 0.686);
+.titre {
+  color: aliceblue;
 }
 
-.zone2{
-    display: grid;
-
-    row-gap: 10px;
-    grid-template-columns: 5fr 1fr;
-
-    height: 500px;
-
-    background-color: rgb(91, 93, 92);
-
-
-
+header {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.828);
+  text-align: center;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /*align-items: auto;*/
 }
 
-.zone3{
-    height: 150px;
-
-
-    background-color: rgb(123, 11, 175);
+.pic {
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
 }
 
-.lesbtn{
-
-    display: grid;
-    row-gap: 10px;
-    column-gap: 10px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 1fr);
-    margin: 15px 15px 18px 15px;
-
-
-
+.ensemble {
+  margin-top: 70px;
+  height: 100vh;
+  width: 99vw;
 }
 
-textarea{
-
-font-size:x-large;
-
-margin: 15px 15px 18px 15px;
-padding: 15px 15px 18px 15px;
-
-border-radius: 10px;
-background-color: rgb(26, 8, 6);
-color: antiquewhite;
-
+h1 {
+  text-align: center;
 }
 
-.result{
+.zone1 {
+  /**/
+  height: 150px;
 
-display: grid;
-grid-template-columns: repeat(5, 1fr);
-column-gap: 10px;
-
+  background-color: rgba(120, 34, 34, 0.686);
 }
 
-li{
-color: aqua;
-height: 25px;
-    list-style: none;
-    background-color: rgba(0, 0, 0, 0.855);
-    text-align: center;
-    margin: 0px  0px  0px  0px ;
-        padding: 5px  0px  0px  0px ;
+.zone2 {
+  display: grid;
+
+  row-gap: 10px;
+  grid-template-columns: 5fr 1fr;
+
+  height: 500px;
+
+  background-color: rgb(91, 93, 92);
+}
+
+.zone3 {
+  height: 150px;
+
+  background-color: rgb(123, 11, 175);
+}
+
+.lesbtn {
+  display: grid;
+  row-gap: 10px;
+  column-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 1fr);
+  margin: 15px 15px 18px 15px;
+}
+
+textarea {
+  font-size: x-large;
+
+  margin: 15px 15px 18px 15px;
+  padding: 15px 15px 18px 15px;
+
+  border-radius: 10px;
+  background-color: rgb(26, 8, 6);
+  color: antiquewhite;
+}
+
+.result {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 10px;
+}
+
+li {
+  color: aqua;
+  height: 25px;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.855);
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 0px 0px;
 }

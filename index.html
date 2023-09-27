@@ -1,87 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://static.wixstatic.com/media/67301c_9ea83d448c9c4fc89ebbcb4f680dc15c~mv2.png"
+    />
 
     <script src="script.js" defer></script>
-    
-    <title id="maPage">TEST NODELIST ET HTML COLLECTION</title>
-    
-</head>
-<body>
 
+    <title class="titre" id="maPage">COMPTEUR DE MOTS</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="http://eliazoura.fr" target="_blank" rel="noopener noreferrer">
+          <img
+            class="pic"
+            alt=""
+            src="https://static.wixstatic.com/media/67301c_9ea83d448c9c4fc89ebbcb4f680dc15c~mv2.png"
+          />
+        </a>
+      </div>
 
-<section>
+      <div class="block">
+        <h1 class="montitre">C OMPTEUR DE MOTS</h1>
+      </div>
+      <div>
+        <a
+          target="_blank"
+          href="http://github.com/eliazoura"
+          rel="noopener noreferrer"
+        >
+          <img
+            class="pic"
+            src="pics/github-mark/github-mark-white.png"
+            alt="GitHub Eli Azoura"
+          />
+        </a>
+      </div>
+    </header>
 
-<div class="zone1">
-    <h1 >Je compte les textes</h1>
+    <section class="ensemble">
+      <div class="zone1">
+        <h1>Je compte les textes</h1>
 
-<ul class="result">
-    <li>total</li>
-    <li>mots</li>
-    <li>espaces simples</li>
-    <li>espaces multiples</li>
-    <li>autres</li>
+        <ul class="result">
+          <li>signes</li>
+          <li>mots</li>
+          <li>espaces simples</li>
+          <li>espaces multiples</li>
+          <li>autres</li>
+        </ul>
+        <ul class="result">
+          <li id="total">- - -</li>
+          <li id="mots">- - -</li>
+          <li>- - -</li>
+          <li>- - -</li>
+          <li>- - -</li>
+        </ul>
+      </div>
 
-</ul>
-<ul class="result">
-    <li id="total"> - - - </li>
-    <li id="mots"> - - - </li>
-    <li> - - - </li>
-    <li> - - - </li>
-    <li> - - - </li>
-</ul>
-
-</div>
-
-
-
-<div></div>
-<div class="zone2">
-
-<textarea name="" id="mazone" cols="30" rows="10">
+      <div></div>
+      <div class="zone2">
+        <textarea name="" id="mazone" cols="30" rows="10">
 <p> Bonjour !</p>   
-</textarea>
+</textarea
+        >
 
-<div class="lesbtn">
-    
-    <button id="count">compter les mots</button>
-    <button>compter les caractères</button>
-    <button>compter les espaces</button>
-    <button>compter les ponctuations</button>
-    <button>touten minuscules</button>
-    <button>tout en majuscules</button>
-    <button>compter les speciaux</button>
-    <button id="reset">RESET</button>
-</div>
-    
-</div>
+        <div class="lesbtn">
+          <button id="count">compter les mots</button>
+          <button>compter les caractères</button>
+          <button>compter les espaces</button>
+          <button>compter les ponctuations</button>
+          <button>touten minuscules</button>
+          <button>tout en majuscules</button>
+          <button>compter les speciaux</button>
+          <button id="reset">RESET</button>
+        </div>
+      </div>
 
-
-<div class="zone3">ZONE 3</div>
-
-
-</section >    
-
-
-
-
-
-
-
-
-
-
-</body>
-
-
-
-
- 
-
+      <div class="zone3">ZONE 3</div>
+    </section>
+  </body>
 </html>
-
