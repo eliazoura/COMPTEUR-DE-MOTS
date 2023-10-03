@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+
     <link rel="stylesheet" href="style.css" />
 
     <link
@@ -17,7 +22,7 @@
     <title class="titre" id="maPage">COMPTEUR DE MOTS</title>
   </head>
   <body>
-    <header>
+    <div class="entete">
       <div>
         <a href="http://eliazoura.fr" target="_blank" rel="noopener noreferrer">
           <img
@@ -44,31 +49,29 @@
           />
         </a>
       </div>
-    </header>
+    </div>
 
     <section class="ensemble">
       <div class="zone1">
-        <h1>Je compte les textes</h1>
-
-        <ul class="result">
+        <!--<h1>Je compte les textes</h1>-->
+        <ul class="result1">
           <li>signes</li>
           <li>mots</li>
           <li>espaces simples</li>
-          <li>espaces multiples</li>
-          <li>autres</li>
+          <li>espaces doubles</li>
+          <li>espaces triples</li>
         </ul>
-        <ul class="result">
-          <li id="total">- - -</li>
-          <li id="mots">- - -</li>
-          <li>- - -</li>
-          <li>- - -</li>
-          <li>- - -</li>
+        <ul class="result2">
+          <li id="total">.</li>
+          <li id="mots">.</li>
+          <li>.</li>
+          <li>.</li>
+          <li>.</li>
         </ul>
       </div>
 
-      <div></div>
       <div class="zone2">
-        <textarea name="" id="mazone" cols="30" rows="10">
+        <textarea name="" id="mazone" culs="30" rows="10">
 <p> Bonjour !</p>   
 </textarea
         >
@@ -85,7 +88,7 @@
         </div>
       </div>
 
-      <div class="zone3">ZONE 3</div>
+      <div class="zone3">Commentaires et précisions sur le texte saisi</div>
     </section>
   </body>
 </html>
